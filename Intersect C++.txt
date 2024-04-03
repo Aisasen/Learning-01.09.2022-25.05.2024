@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    int array[n], uniq[n];
+    for (int i=0; i<n; i++)
+    {
+        cin>>array[i];
+        for (int i2=0; i2<n; i2++)
+        {
+            if (uniq[i2]==array[i])
+            {
+                break;
+            }
+            else
+            {
+                uniq[i2]=array[i];
+                break;
+            }
+
+        }
+    }
+    for (int i=0; i<n; i++)
+    {
+        cout<<uniq[i]<<endl;
+    }
+}
