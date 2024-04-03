@@ -153,7 +153,7 @@ if(isset($_POST['solutions']))
 			echo 'Ответ на вопрос '.$n.': Правильный<br><style>#q'.$n.' {background:green}</style>';
 		}
 		else
-			echo 'Ответ на вопрос '.$n.': Неправильный, правильный ответ: '.$answers[$i].'<br><style>q'.$n.' {background:red}</style>';
+			echo 'Ответ на вопрос '.$n.': Неправильный, правильный ответ: '.$answers[$i].'<br><style>#q'.$n.' {background:red}</style>';
 	}
 	echo "Ваша оценка: ".$grade*20 ."%";
 	$grade=0;

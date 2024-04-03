@@ -1,0 +1,74 @@
+<?php
+$link=mysqli_connect('localhost', 'root', '', 'работники'); 
+$res1=mysqli_query($link, "SELECT * FROM `workers` WHERE SALARY>=500;"); 
+$res2=mysqli_query($link, "SELECT age, salary FROM `workers` WHERE name LIKE 'Вася';"); 
+$res3=mysqli_query($link, "SELECT * FROM `workers` WHERE AGE>=23 AND AGE<=27 OR SALARY>=400 and SALARY<=1000;"); 
+$res4=mysqli_query($link, "INSERT INTO `workers` (`id`, `name`, `age`, `SALARY`) VALUES ('7', 'Ярослав', '30', '1200'), ('8', 'Пётр', '31', '1000');"); 
+$res5=mysqli_query($link, "DELETE from workers where age=25;"); 
+$res6=mysqli_query($link, "UPDATE `workers` SET `SALARY` = '700' WHERE `workers`.`salary` = 500;"); 
+$res7=mysqli_query($link, "SELECT * from workers WHERE ID<=5;"); 
+$res8=mysqli_query($link, "SELECT * FROM `workers` WHERE ID in(2,3,4);"); 
+$res9=mysqli_query($link, "SELECT * FROM `workers` ORDER BY SALARY;"); 
+$res10=mysqli_query($link, "SELECT * FROM `workers` ORDER BY SALARY DESC;"); 
+$res11=mysqli_query($link, "SELECT * FROM `workers` WHERE ID>=2 ORDER BY AGE;"); 
+$res12=mysqli_query($link, "SELECT COUNT(*) from workers WHERE SALARY>500;"); 
+$res13=mysqli_query($link, "SELECT * FROM `pages`");
+$res14=mysqli_query($link, "SELECT * FROM `pages` WHERE author LIKE '%ов';"); 
+$res15=mysqli_query($link, "SELECT * FROM `pages` WHERE author LIKE '%элемент%';"); 
+$res16=mysqli_query($link, "SELECT * FROM `workers` WHERE age LIKE '3_';"); 
+$res17=mysqli_query($link, "SELECT * FROM `workers` WHERE name LIKE '%я';"); 
+for ($data1 = []; $row = mysqli_fetch_assoc($res1); $data1[] = $row);
+var_dump($data1); echo "<br>";
+for ($data2 = []; $row = mysqli_fetch_assoc($res2); $data2[] = $row);
+var_dump($data2); echo "<br>";
+for ($data3 = []; $row = mysqli_fetch_assoc($res3); $data3[] = $row);
+var_dump($data3); echo "<br>";
+for ($data4 = []; $row = mysqli_fetch_assoc($res4); $data4[] = $row);
+var_dump($data4); echo "<br>";
+for ($data5 = []; $row = mysqli_fetch_assoc($res5); $data5[] = $row);
+var_dump($data5); echo "<br>";
+for ($data6 = []; $row = mysqli_fetch_assoc($res6); $data6[] = $row);
+var_dump($data6); echo "<br>";
+for ($data7 = []; $row = mysqli_fetch_assoc($res7); $data7[] = $row);
+var_dump($data7); echo "<br>";
+for ($data8 = []; $row = mysqli_fetch_assoc($res8); $data8[] = $row);
+var_dump($data8); echo "<br>";
+for ($data9 = []; $row = mysqli_fetch_assoc($res9); $data9[] = $row);
+var_dump($data9); echo "<br>";
+for ($data10 = []; $row = mysqli_fetch_assoc($res10); $data10[] = $row);
+var_dump($data10); echo "<br>";
+for ($data11 = []; $row = mysqli_fetch_assoc($res11); $data11[] = $row);
+var_dump($data11); echo "<br>";
+for ($data12 = []; $row = mysqli_fetch_assoc($res12); $data12[] = $row);
+var_dump($data12); echo "<br>";
+for ($data13 = []; $row = mysqli_fetch_assoc($res13); $data13[] = $row);
+var_dump($data13); echo "<br>";
+for ($data14 = []; $row = mysqli_fetch_assoc($res14); $data14[] = $row);
+var_dump($data14); echo "<br>";
+for ($data15 = []; $row = mysqli_fetch_assoc($res15); $data15[] = $row);
+var_dump($data15); echo "<br>";
+for ($data16 = []; $row = mysqli_fetch_assoc($res16); $data16[] = $row);
+var_dump($data16); echo "<br>";
+for ($data17 = []; $row = mysqli_fetch_assoc($res17); $data17[] = $row);
+var_dump($data17); echo "<br>";
+//Практическая работа Задачи на основы работы с базами данных SQL в PHP
+//SELECT * FROM `workers` WHERE SALARY>=500;
+//SELECT age, salary FROM `workers` WHERE name LIKE 'Вася';
+//SELECT * FROM `workers` WHERE AGE>=23 AND AGE<=27 OR SALARY>=400 and SALARY<=1000;
+//INSERT INTO `workers` (`id`, `name`, `age`, `SALARY`) VALUES ('7', 'Ярослав', '30', '1200'), ('8', 'Пётр', '31', '1000');
+//DELETE * from workers where age=23;
+//UPDATE `workers` SET `SALARY` = '700' WHERE `workers`.`salary` = 500;
+
+//Практическая работа2 Работа с базой данных
+//SELECT * from workers WHERE ID<=5;
+//SELECT * FROM `workers` WHERE ID in(2,3,4);
+//SELECT * FROM `workers` ORDER BY SALARY;
+//SELECT * FROM `workers` ORDER BY SALARY DESC;
+//SELECT * FROM `workers` WHERE ID>=2 ORDER BY AGE;
+//SELECT COUNT(*) from workers WHERE SALARY>500;
+//SELECT * FROM `pages`
+//SELECT * FROM `pages` WHERE author LIKE '%ов';
+//SELECT * FROM `pages` WHERE author LIKE '%элемент%';
+//SELECT * FROM `workers` WHERE age LIKE '3_';
+//SELECT * FROM `workers` WHERE name LIKE '%я';
+?>

@@ -45,22 +45,23 @@ switch ($key)
 	echo 'Вы ввели '.$mass.' центнеров, в системе СИ будет: '.$mass*$weight[5].' кг'.'<br>';
 	break;
 }
-$k=41;
+$k=3;
 switch ($k) 
 {
-	case ($k>0 and $k<5):
-		echo "$k год";
+	case ($k>1 and $k<4):
+		echo "$k года";
 		break;
-	case ($k>4 and $k<21):
+	case ($k>5 and $k<21):
 		echo "$k лет";
 		break;
-	case ($k>20 and ($k%10==2 or $k%10==3 or $k%10==4)):
+	case ($k%10==2 or $k%10==3 or $k%10==4):
 		echo "$k года";
 		break;
 	case ($k>20 and ($k%10==5 or $k%10==6 or $k%10==7 or $k%10==8 or $k%10==9 or $k%10==0)):
 		echo "$k лет";
 		break;
-	case ($k>20 and ($k%10==1)):
+	case ($k%10==1):
 		echo "$k год";
+
 }
 ?>

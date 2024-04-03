@@ -1,26 +1,26 @@
 <form action="" method="post">
-	<input type="text" name="year">
+	<input type="text" name="year" placeholder="Високосный ли год">
 	<input type="submit">
 </form>
 <form action="" method="post">
-	<input type="text" name="year2">
+	<input type="text" name="year2" placeholder="Формат даты 12.06.2022">
 	<input type="submit">
 </form>
-<form action="" method="post" >
-	<input type="text" name="year3">
+<form action="" method="post">
+	<input type="text" name="year3" placeholder="Дата рождения">
 	<input type="submit">
 </form>
 <form action="" method="POST">
-    <input type="text" name="date">
+    <input type="text" name="date" placeholder="Зодиак">
     <input type="submit">
 </form>
 </form>
 <form action="" method="POST">
-    <input type="text" name="text">
+    <input type="text" name="text" placeholder="Количество слов и т.д.">
     <input type="submit">
 </form>
 <form action="" method="post">
-    <textarea name="text2"></textarea>
+    <textarea name="text2" placeholder="Буквы и слова на них."></textarea>
     <input type="submit">
 </form>
 <?php
@@ -106,6 +106,5 @@ if (isset($_REQUEST['text2'])) {
         }
         echo '<br>';
     }
- 
 }
 ?>
