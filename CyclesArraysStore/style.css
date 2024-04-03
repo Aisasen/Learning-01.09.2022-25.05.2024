@@ -1,0 +1,432 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  min-width: 550px;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 510px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.site-navigation {
+  display: flex;
+  width: 510px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  justify-content: space-between;
+}
+
+.site-header {
+  position: relative;
+  z-index: 2;
+
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.logo-link:hover,
+.logo-link:focus {
+  opacity: 0.5;
+}
+
+.logo-link:active {
+  opacity: 0.3;
+}
+
+.logo-link img {
+  margin: 10px 0;
+}
+
+.navigation-list {
+  display: flex;
+  margin: 0 -15px 0 0;
+  padding: 0;
+
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+  opacity: 0.5;
+}
+
+.navigation-list a:active {
+  color: #ff8a00;
+}
+
+.navigation-list a {
+  display: block;
+  padding: 12px 15px 11px;
+
+  color: #845927;
+}
+
+.item {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.price {
+  margin-right: 10px;
+  flex-shrink: 1;
+
+  font-weight: 700;
+  font-size: 15px;
+  color: #ff8a00;
+}
+
+.item-title {
+  display: inline-block;
+  vertical-align: baseline;
+  padding-right: 50px;
+  margin: 5px 0 0;
+
+  font-family: "Georgia", "Times", serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.item-new .item-title {
+  position: relative;
+}
+
+.item-new .item-title::after {
+  position: absolute;
+  content: "new";
+
+  width: 38px;
+  height: 16px;
+  top: 13px;
+  right: 0;
+
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #ff8a00;
+  border-radius: 4px;
+}
+
+.item-container {
+  display: flex;
+}
+
+.item-img {
+  display: flex;
+  flex-shrink: 0;
+
+  margin: 20px 0;
+}
+
+.item-hot .item-img {
+  position: relative;
+  padding-top: 36px;
+}
+
+.item-hot .item-img::before {
+  position: absolute;
+  content: "";
+
+  width: 290px;
+  height: 36px;
+
+  top: 0;
+  left: 0;
+
+  background-color: #fff3e5;
+  background-image: url("img/icon-hot.svg");
+  background-repeat: no-repeat;
+  background-size: 11px 14px;
+  background-position: 62px 10px;
+}
+
+.item-hot .item-img::after {
+  position: absolute;
+  content: "Товар скоро закончится!";
+
+  top: 10px;
+  left: 80px;
+}
+
+.item-info {
+  margin: 8px 0 10px 20px;
+  flex-grow: 1;
+}
+
+.title-advantages {
+  margin: 10px 0 8px;
+
+  font-family: "Georgia", "Times", serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.item-advantages {
+  margin: 0;
+  padding-left: 14px;
+  padding-bottom: 12px;
+
+  border-bottom: 1px solid #e2e2e2;
+
+  font-family: "Georgia", "Times", serif;
+  font-style: italic;
+
+  list-style: none;
+}
+
+.item-advantages li {
+  position: relative;
+  margin-bottom: 6px;
+}
+
+.item-advantages li::before {
+  position: absolute;
+  content: "";
+
+  width: 6px;
+  height: 6px;
+
+  top: 6px;
+  left: -14px;
+
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.item-buy {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 16px 0 0;
+}
+
+.item-buy .price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  position: relative;
+  max-width: 510px;
+  margin-top: -2px;
+  margin-bottom: 10px;
+
+  flex-shrink: 0;
+}
+
+.item-buy p {
+  margin: 0 30px 10px 0;
+
+  word-wrap: break-word;
+}
+
+.item-buy i {
+  display: block;
+  margin-bottom: 2px;
+
+  font-family: "Georgia", "Times", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.price-old i {
+  margin-bottom: 3px;
+}
+
+p.price-new {
+  margin-right: 0;
+
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff8a00;
+}
+
+.delivery-cost {
+  font-weight: 700;
+  color: #ff8a00;
+}
+
+.price-old::after,
+.price-new::after {
+  content: "KZT";
+}
+
+.price-old:empty::after,
+.price-new:empty::after {
+  content: "";
+}
+
+.site-footer {
+  background-color: #847462;
+}
+
+.site-footer .container {
+  display: flex;
+
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.copyright {
+  margin: auto 0;
+
+  flex-shrink: 0;
+
+  color: #ffffff;
+}
+
+.site-footer .navigation-list {
+  margin-right: 15px;
+  margin-left: -15px;
+
+  justify-content: left;
+}
+
+.copyright + .navigation-list {
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.site-footer a {
+  display: block;
+  margin: 0;
+  padding: 14px 15px;
+
+  color: #ffffff;
+}
+
+.social-list {
+  display: flex;
+  width: 110px;
+  padding: 0;
+  margin: 0 -10px 2px;
+
+  justify-content: end;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  list-style: none;
+}
+
+.social-list a {
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 10px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-link-twitter {
+  background-image: url("img/icon-twitter.svg");
+}
+
+.social-link-instagram {
+  background-image: url("img/icon-instagram.svg");
+}
+
+.social-link-facebook {
+  background-image: url("img/icon-facebook.svg");
+}
+
+.social-list a:hover,
+.social-list a:focus {
+  opacity: 0.5;
+}
+
+.social-list a:active {
+  opacity: 0.3;
+}
+.price {
+  margin-right: 10px;
+  flex-shrink: 1;
+
+  font-weight: 700;
+  font-size: 15px;
+  color: #ff8a00;
+}
+
+.colors-list {
+  display: flex;
+  margin: 4px 0 0 -4px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.colors-list li {
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  margin-left: 4px;
+
+  border-radius: 50%;
+}
+
+.color-orange {
+  background-color: orange;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-white {
+  background-color: white;
+  border: 1px solid #c0c0c0;
+}

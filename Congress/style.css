@@ -1,0 +1,118 @@
+/* Обнуляем отступы и поля, чтобы все элементы были выровнены по краям */
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Задаем стили для шапки сайта */
+header 
+{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Задаем стили для навигационного меню */
+nav 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Задаем стили для ссылок в навигационном меню */
+nav a 
+{
+  color: #fff;
+  text-decoration: none;
+  margin: auto;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em; /* Увеличиваем размер шрифта */
+  margin-top: 0.1%; /* Добавляем отступ сверху */
+}
+
+/* Задаем стили для основной части сайта */
+main 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+/* Задаем стили для раздела в основной части сайта */
+section 
+{
+  text-align: center;
+}
+
+/* Задаем стили для заголовка в разделе основной части сайта */
+section h1 
+{
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+/* Задаем стили для боковой колонки (сайдбара) */
+aside 
+{
+  background-color: #eee;
+  padding: 10px;
+}
+
+/* Задаем стили для подвала сайта */
+footer 
+{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+section p 
+
+{
+  font-size: 1.5em; /* Увеличиваем размер шрифта */
+  line-height: 1.5; /* Задаем межстрочный интервал */
+  margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+button 
+{
+  display: inline-block;
+  border-radius: 50px;
+  padding: 12px 36px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(to right, #aa6347, #aa007f);
+  background-size: 200% auto;
+  transition: all 0.5s ease-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+  animation: pulse 2s infinite;
+}
+
+button:hover 
+{
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+  background-position: right center;
+}
+
+button:active 
+{
+  transform: translateY(0);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
