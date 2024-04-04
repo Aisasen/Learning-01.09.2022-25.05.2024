@@ -1,0 +1,15 @@
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\bin\Debug\База данных1.accdb
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form4.resources
+C:\Users\cl.student\Desktop\po221\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form5.resources
