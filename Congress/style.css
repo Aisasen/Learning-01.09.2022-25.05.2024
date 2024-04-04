@@ -6,12 +6,16 @@
 }
 
 /* Задаем стили для шапки сайта */
-header 
-{
-  background-color: #333;
+header {
+  background-color: black;
   color: #fff;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
+
 
 /* Задаем стили для навигационного меню */
 nav 
@@ -63,51 +67,149 @@ aside
 }
 
 /* Задаем стили для подвала сайта */
-footer 
-{
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
-section p 
 
+section p 
 {
   font-size: 1.5em; /* Увеличиваем размер шрифта */
   line-height: 1.5; /* Задаем межстрочный интервал */
   margin-bottom: 20px; /* Добавляем отступ снизу */
 }
-button 
-{
-  display: inline-block;
-  border-radius: 50px;
-  padding: 12px 36px;
-  font-size: 18px;
-  font-weight: bold;
+/* Стили для кнопки */
+button {
+  background-color: #000000; /* Цвет фона */
+  border: none; /* Убираем границу */
+  color: #fff; /* Цвет текста */
+  cursor: pointer; /* Добавляем указатель мыши */
+  font-family: Georgia, sans-serif; /* Шрифт */
+  font-size: 20px; /* Размер шрифта */
+  padding: 18px 36px; /* Внутренние отступы */
+  text-align: center; /* Выравнивание текста по центру */
+  text-decoration: none; /* Убираем подчеркивание */
+  display: inline-block; /* Строчно-блочный элемент */
+  margin: 10px; /* Внешние отступы */
+  border-radius: 6px; /* Закругление углов */
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3); /* Тень */
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Плавное изменение цвета фона и тени при наведении */
+}
+
+/* Стили при наведении на кнопку */
+button:hover {
+  background-color: #333333; /* Новый цвет фона */
+  box-shadow: 0 12px 20px rgba(0,0,0,0.4); /* Новая тень */
+}
+
+/* Стили при нажатии на кнопку */
+button:active {
+  background-color: #555555; /* Еще один новый цвет фона */
+}
+
+section p {
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section p:first-of-type {
+  margin-top: 0;
+}
+
+main {
+  color: white;
+}
+
+main {
+  background-image: url("MainBg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  background-color: #000000;
+  color: #999999;
+  padding: 3px 0;
+  bottom: 0;
+  width: 100%;
+}
+}
+
+footer a {
+  color: #333;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.col-md-4 {
+  width: 33.33%;
+  float: left;
   text-align: center;
-  text-decoration: none;
-  color: #fff;
-  background: linear-gradient(to right, #aa6347, #aa007f);
-  background-size: 200% auto;
-  transition: all 0.5s ease-out;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-  transition: all 0.2s ease-in-out;
-  animation: pulse 2s infinite;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px; /* здесь 60px - это высота вашего подвала */
 }
 
-button:hover 
+.footer {
+  height: 60px; /* здесь 60px - это высота вашего подвала */
+}
+@media (max-width: 767px) 
 {
-  transform: translateY(-2px);
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
-  background-position: right center;
+  .col-md-4 
+  {
+    width: 100%;
+    float: none;
+  }
+}
+.product {
+background-color: #777777;
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 10px;
 }
 
-button:active 
+.product h2 {
+font-size: 1.5em;
+font-family: Georgia;
+background-color: black;
+color: orange;
+margin: 0;
+}
+
+.product p 
 {
-  transform: translateY(0);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+margin: 5px 0;
+background-color: #873623;
+font-family: Georgia;
 }
 
+.product img 
+{
+width: 300px;
+height: auto;
+margin-bottom: 5px;
+}
+.sidebar 
+{
+  background-color: #777777;
+  text-align: center;
+}
+.sidebar li a
+{
+  background-color: #555555;
+  color: orange;
+  font-size: 20px;
+}
 
 
 
