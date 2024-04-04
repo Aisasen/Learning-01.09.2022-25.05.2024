@@ -1,0 +1,20 @@
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\bin\Debug\golovolomka.exe.config
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\bin\Debug\golovolomka.exe
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\bin\Debug\golovolomka.pdb
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\obj\Debug\golovolomka.csproj.AssemblyReference.cache
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\obj\Debug\golovolomka.Form1.resources
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\obj\Debug\golovolomka.Properties.Resources.resources
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\obj\Debug\golovolomka.csproj.GenerateResource.cache
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\obj\Debug\golovolomka.csproj.CoreCompileInputs.cache
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\obj\Debug\golovolomka.exe
+C:\Users\Чи да\source\repos\golovolomka\golovolomka\obj\Debug\golovolomka.pdb
+D:\golovolomka\golovolomka\bin\Debug\golovolomka.exe.config
+D:\golovolomka\golovolomka\bin\Debug\golovolomka.exe
+D:\golovolomka\golovolomka\bin\Debug\golovolomka.pdb
+D:\golovolomka\golovolomka\obj\Debug\golovolomka.csproj.AssemblyReference.cache
+D:\golovolomka\golovolomka\obj\Debug\golovolomka.Form1.resources
+D:\golovolomka\golovolomka\obj\Debug\golovolomka.Properties.Resources.resources
+D:\golovolomka\golovolomka\obj\Debug\golovolomka.csproj.GenerateResource.cache
+D:\golovolomka\golovolomka\obj\Debug\golovolomka.csproj.CoreCompileInputs.cache
+D:\golovolomka\golovolomka\obj\Debug\golovolomka.exe
+D:\golovolomka\golovolomka\obj\Debug\golovolomka.pdb
