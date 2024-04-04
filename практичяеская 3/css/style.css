@@ -1,0 +1,68 @@
+/*
+* Photo Gallery 
+* CSS Styles
+*
+*
+*/
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.photo {
+	float: left;
+	width: 33.333333%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.photo img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.photo img {
+	border: 10px solid #eee;
+	box-sizing: border-box;
+}
+.photo a:hover {
+	opacity: 0.5;
+}
+.photo a {
+	display: block;
+}
+.photo a:after {
+	content: '';
+	background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+	width: 52px;
+	height: 35px;
+	position: absolute;
+	margin: auto;
+	visibility: hidden;
+}
+.photo:hover>a:after {
+	visibility: visible;
+}
+.photo figcaption {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	color:white;
+	text-align: center;
+	margin: 30px 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif; background: url(../img/back.jpg);
+}
+#gallery {
+	margin-bottom: 50px;
+}
+#gallery:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
