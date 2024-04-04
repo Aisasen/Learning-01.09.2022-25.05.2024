@@ -1,0 +1,39 @@
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.exe.config
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.exe
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.pdb
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.AssemblyReference.cache
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Properties.Resources.resources
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.GenerateResource.cache
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.CoreCompileInputs.cache
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.exe
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.pdb
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Game.resources
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.HelloScreen.resources
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Rules.resources
+C:\Users\Чи да\source\repos\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Victory.resources
+D:\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.exe.config
+D:\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.exe
+D:\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.pdb
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.AssemblyReference.cache
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Game.resources
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.HelloScreen.resources
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Properties.Resources.resources
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Rules.resources
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Victory.resources
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.GenerateResource.cache
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.CoreCompileInputs.cache
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.exe
+D:\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.pdb
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.exe.config
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.exe
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\bin\Debug\HanoiTowers.pdb
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.AssemblyReference.cache
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Game.resources
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.HelloScreen.resources
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Properties.Resources.resources
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Rules.resources
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.Victory.resources
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.GenerateResource.cache
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.csproj.CoreCompileInputs.cache
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.exe
+C:\Users\cl.student\Desktop\HanoiTowers\HanoiTowers\obj\Debug\HanoiTowers.pdb
